@@ -1,0 +1,9 @@
+mogrify -format pgm tmp/et000.jpg; ../bin/sift < tmp/et000.pgm > tmp/et000.key; rm tmp/et000.pgm; gzip -f tmp/et000.key
+mogrify -format pgm tmp/et001.jpg; ../bin/sift < tmp/et001.pgm > tmp/et001.key; rm tmp/et001.pgm; gzip -f tmp/et001.key
+mogrify -format pgm tmp/et002.jpg; ../bin/sift < tmp/et002.pgm > tmp/et002.key; rm tmp/et002.pgm; gzip -f tmp/et002.key
+mogrify -format pgm tmp/et003.jpg; ../bin/sift < tmp/et003.pgm > tmp/et003.key; rm tmp/et003.pgm; gzip -f tmp/et003.key
+mogrify -format pgm tmp/et004.jpg; ../bin/sift < tmp/et004.pgm > tmp/et004.key; rm tmp/et004.pgm; gzip -f tmp/et004.key
+mogrify -format pgm tmp/et005.jpg; ../bin/sift < tmp/et005.pgm > tmp/et005.key; rm tmp/et005.pgm; gzip -f tmp/et005.key
+mogrify -format pgm tmp/et006.jpg; ../bin/sift < tmp/et006.pgm > tmp/et006.key; rm tmp/et006.pgm; gzip -f tmp/et006.key
+mogrify -format pgm tmp/et007.jpg; ../bin/sift < tmp/et007.pgm > tmp/et007.key; rm tmp/et007.pgm; gzip -f tmp/et007.key
+mogrify -format pgm tmp/et008.jpg; ../bin/sift < tmp/et008.pgm > tmp/et008.key; rm tmp/et008.pgm; gzip -f tmp/et008.key

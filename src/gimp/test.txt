@@ -1,0 +1,4 @@
+ims=gimp.image_list()
+im=ims[0];
+layer=im.layers[0]
+pdb.python_fu_auto_gradient(im,layer,(255,100,100),(50,200,50))

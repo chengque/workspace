@@ -1,0 +1,47 @@
+2014-04-14
+    * RunSFM 1.4.4 released
+    * Fixed potential bug with Sift matching
+    * Updated code to compile on Ubuntu 13.10
+
+2012-06-21
+    * RunSFM 1.4.3 released
+    * Fixed up variable race condition in SiftMatcher (thanks Chris Smith)
+    * Turned off LM optimisation. Seems to produce less points in general. It's using the original GSL simplex routine.
+
+2012-04-15
+    * RunSFM 1.4.2 released
+    * Fixed a bug with lmmin usage (thanks to Dan for pointing it out)
+    * Minor changes to RunSFM.sh script, fixed the unexpected operator message in the Bundler script
+    * Removed unused armadillo directory
+
+2012-02-05
+    * RunSFM 1.4.1 released
+    * Fixed compiling issues on Ubuntu 11.10
+    * Merged with cmvs-fix2
+
+2011-08-08
+	* RunSFM 1.4.0 released
+	* Improved PMV2 by combining LM + Simplex when optimising the patch, Simplex is used when LM fails
+	* Added another optional argument to RunSFM.sh for sequential image matching
+
+2011-07-29
+	* RunSFM 1.3.1 released
+	* Updated versioning to use 3 numbers
+	* Added a post installation message for libANN_char.so
+
+2011-07-21
+	* RunSFM 1.3 released
+	* Added a simple script to check for dependent libraries
+
+2011-07-19
+	* RunSFM 1.2 released
+	* Fixed linking errors with Flann
+	* Fixed missing header and Makefile in cmvs/program/main
+
+2011-07-18
+	* RunSFM 1.1 released
+	* Added updated f2c.h and clapack.h, some functions missing in Ubuntu's version 
+	* Fixed typo in RunSFM.sh, 'pmv/model' --> 'pmvs/model'
+
+2011-07-07
+	* RunSFM 1.0 released

@@ -1,0 +1,438 @@
+!SESSION 2015-05-17 12:25:33.462 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:35:31.329
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:35:31.329
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:35:31.329
+!MESSAGE Software being installed: GNU ARM C/C++ OpenOCD Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.openocd.feature.group 3.2.1.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:35:31.329
+!MESSAGE Missing requirement: GNU ARM C/C++ OpenOCD Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.openocd 3.2.1.201504061754) requires 'bundle org.eclipse.ui 3.105.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:35:31.329
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:35:31.329
+!MESSAGE From: GNU ARM C/C++ OpenOCD Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.openocd.feature.group 3.2.1.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:35:31.329
+!MESSAGE To: ilg.gnuarmeclipse.debug.gdbjtag.openocd [3.2.1.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:35:31.333
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:35:31.334
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:35:31.334
+!MESSAGE Software being installed: GNU ARM C/C++ OpenOCD Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.openocd.feature.group 3.2.1.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:35:31.334
+!MESSAGE Missing requirement: GNU ARM C/C++ OpenOCD Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.openocd 3.2.1.201504061754) requires 'bundle org.eclipse.ui 3.105.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:35:31.334
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:35:31.334
+!MESSAGE From: GNU ARM C/C++ OpenOCD Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.openocd.feature.group 3.2.1.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:35:31.334
+!MESSAGE To: ilg.gnuarmeclipse.debug.gdbjtag.openocd [3.2.1.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:36:08.913
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:36:08.913
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:08.913
+!MESSAGE Software being installed: GNU ARM C/C++ CodeRed Debug Perspective 1.1.1.201504061754 (ilg.gnuarmeclipse.codered.feature.group 1.1.1.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:08.913
+!MESSAGE Missing requirement: GNU ARM C/C++ Core 2.8.1.201504061754 (ilg.gnuarmeclipse.core 2.8.1.201504061754) requires 'bundle org.eclipse.ui.workbench 3.105.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:36:08.913
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:08.913
+!MESSAGE From: GNU ARM C/C++ CodeRed Debug Perspective 1.1.1.201504061754 (ilg.gnuarmeclipse.codered.feature.group 1.1.1.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:08.913
+!MESSAGE To: ilg.gnuarmeclipse.core [2.8.1.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:36:08.914
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:36:08.914
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:08.914
+!MESSAGE Software being installed: GNU ARM C/C++ CodeRed Debug Perspective 1.1.1.201504061754 (ilg.gnuarmeclipse.codered.feature.group 1.1.1.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:08.914
+!MESSAGE Missing requirement: GNU ARM C/C++ Core 2.8.1.201504061754 (ilg.gnuarmeclipse.core 2.8.1.201504061754) requires 'bundle org.eclipse.ui.workbench 3.105.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:36:08.914
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:08.914
+!MESSAGE From: GNU ARM C/C++ CodeRed Debug Perspective 1.1.1.201504061754 (ilg.gnuarmeclipse.codered.feature.group 1.1.1.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:08.914
+!MESSAGE To: ilg.gnuarmeclipse.core [2.8.1.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:36:29.271
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:36:29.271
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:29.271
+!MESSAGE Software being installed: GNU ARM C/C++ Packs (Experimental) 2.2.2.201504061754 (ilg.gnuarmeclipse.packs.feature.group 2.2.2.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:29.271
+!MESSAGE Missing requirement: GNU ARM C/C++ Packs Core 1.1.2.201504061754 (ilg.gnuarmeclipse.packs.core 1.1.2.201504061754) requires 'bundle org.eclipse.jface 3.9.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:36:29.271
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:29.271
+!MESSAGE From: GNU ARM C/C++ Packs (Experimental) 2.2.2.201504061754 (ilg.gnuarmeclipse.packs.feature.group 2.2.2.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:29.271
+!MESSAGE To: ilg.gnuarmeclipse.packs.core [1.1.2.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:36:29.290
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:36:29.290
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:29.290
+!MESSAGE Software being installed: GNU ARM C/C++ Packs (Experimental) 2.2.2.201504061754 (ilg.gnuarmeclipse.packs.feature.group 2.2.2.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:29.291
+!MESSAGE Missing requirement: GNU ARM C/C++ Packs Core 1.1.2.201504061754 (ilg.gnuarmeclipse.packs.core 1.1.2.201504061754) requires 'bundle org.eclipse.jface 3.9.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:36:29.291
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:29.291
+!MESSAGE From: GNU ARM C/C++ Packs (Experimental) 2.2.2.201504061754 (ilg.gnuarmeclipse.packs.feature.group 2.2.2.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:29.291
+!MESSAGE To: ilg.gnuarmeclipse.packs.core [1.1.2.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:36:38.297
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:36:38.297
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:38.298
+!MESSAGE Software being installed: GNU ARM C/C++ Generic Cortex-M Project Template 1.2.5.201504061754 (ilg.gnuarmeclipse.templates.cortexm.feature.group 1.2.5.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:38.298
+!MESSAGE Missing requirement: GNU ARM C/C++ Core 2.8.1.201504061754 (ilg.gnuarmeclipse.core 2.8.1.201504061754) requires 'bundle org.eclipse.ui.workbench 3.105.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:36:38.298
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:38.298
+!MESSAGE From: GNU ARM C/C++ Generic Cortex-M Project Template 1.2.5.201504061754 (ilg.gnuarmeclipse.templates.cortexm.feature.group 1.2.5.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:38.298
+!MESSAGE To: ilg.gnuarmeclipse.core [2.8.1.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:36:38.298
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:36:38.298
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:38.298
+!MESSAGE Software being installed: GNU ARM C/C++ Generic Cortex-M Project Template 1.2.5.201504061754 (ilg.gnuarmeclipse.templates.cortexm.feature.group 1.2.5.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:38.298
+!MESSAGE Missing requirement: GNU ARM C/C++ Core 2.8.1.201504061754 (ilg.gnuarmeclipse.core 2.8.1.201504061754) requires 'bundle org.eclipse.ui.workbench 3.105.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:36:38.299
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:38.299
+!MESSAGE From: GNU ARM C/C++ Generic Cortex-M Project Template 1.2.5.201504061754 (ilg.gnuarmeclipse.templates.cortexm.feature.group 1.2.5.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:38.299
+!MESSAGE To: ilg.gnuarmeclipse.core [2.8.1.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:36:55.117
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:36:55.117
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:55.117
+!MESSAGE Software being installed: GNU ARM C/C++ J-Link Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.jlink.feature.group 3.2.1.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:55.117
+!MESSAGE Missing requirement: GNU ARM C/C++ J-Link Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.jlink 3.2.1.201504061754) requires 'bundle org.eclipse.ui 3.105.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:36:55.117
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:55.117
+!MESSAGE From: GNU ARM C/C++ J-Link Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.jlink.feature.group 3.2.1.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:55.117
+!MESSAGE To: ilg.gnuarmeclipse.debug.gdbjtag.jlink [3.2.1.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:36:55.118
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:36:55.118
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:55.118
+!MESSAGE Software being installed: GNU ARM C/C++ J-Link Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.jlink.feature.group 3.2.1.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:55.118
+!MESSAGE Missing requirement: GNU ARM C/C++ J-Link Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.jlink 3.2.1.201504061754) requires 'bundle org.eclipse.ui 3.105.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:36:55.118
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:55.118
+!MESSAGE From: GNU ARM C/C++ J-Link Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.jlink.feature.group 3.2.1.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:36:55.118
+!MESSAGE To: ilg.gnuarmeclipse.debug.gdbjtag.jlink [3.2.1.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:40:20.123
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:40:20.123
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:40:20.123
+!MESSAGE Software being installed: Target Communication Framework (Incubation) 0.4.0.201106081058 (org.eclipse.tm.tcf.feature.feature.group 0.4.0.201106081058)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:40:20.123
+!MESSAGE Software being installed: Target Communication Framework (Incubation) 0.4.1.201202112004 (org.eclipse.tm.tcf.feature.feature.group 0.4.1.201202112004)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:40:20.123
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:40:20.123
+!MESSAGE Target Communication Framework (Incubation) 0.4.1.201202112004 (org.eclipse.tm.tcf.feature.feature.jar 0.4.1.201202112004)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:40:20.123
+!MESSAGE Target Communication Framework (Incubation) 0.4.0.201106081058 (org.eclipse.tm.tcf.feature.feature.jar 0.4.0.201106081058)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:40:20.123
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:40:20.123
+!MESSAGE From: Target Communication Framework (Incubation) 0.4.0.201106081058 (org.eclipse.tm.tcf.feature.feature.group 0.4.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:40:20.123
+!MESSAGE To: org.eclipse.tm.tcf.feature.feature.jar [0.4.0.201106081058]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:40:20.123
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:40:20.123
+!MESSAGE From: Target Communication Framework (Incubation) 0.4.1.201202112004 (org.eclipse.tm.tcf.feature.feature.group 0.4.1.201202112004)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:40:20.123
+!MESSAGE To: org.eclipse.tm.tcf.feature.feature.jar [0.4.1.201202112004]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:40:20.135
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:40:20.135
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:40:20.135
+!MESSAGE Software being installed: Target Communication Framework (Incubation) 0.4.0.201106081058 (org.eclipse.tm.tcf.feature.feature.group 0.4.0.201106081058)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:40:20.135
+!MESSAGE Software being installed: Target Communication Framework (Incubation) 0.4.1.201202112004 (org.eclipse.tm.tcf.feature.feature.group 0.4.1.201202112004)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:40:20.135
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:40:20.135
+!MESSAGE Target Communication Framework (Incubation) 0.4.1.201202112004 (org.eclipse.tm.tcf.feature.feature.jar 0.4.1.201202112004)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:40:20.135
+!MESSAGE Target Communication Framework (Incubation) 0.4.0.201106081058 (org.eclipse.tm.tcf.feature.feature.jar 0.4.0.201106081058)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:40:20.135
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:40:20.135
+!MESSAGE From: Target Communication Framework (Incubation) 0.4.0.201106081058 (org.eclipse.tm.tcf.feature.feature.group 0.4.0.201106081058)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:40:20.135
+!MESSAGE To: org.eclipse.tm.tcf.feature.feature.jar [0.4.0.201106081058]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:40:20.135
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:40:20.135
+!MESSAGE From: Target Communication Framework (Incubation) 0.4.1.201202112004 (org.eclipse.tm.tcf.feature.feature.group 0.4.1.201202112004)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:40:20.135
+!MESSAGE To: org.eclipse.tm.tcf.feature.feature.jar [0.4.1.201202112004]
+!SESSION 2015-05-17 12:44:41.548 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:45:24.034
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:45:24.034
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:24.034
+!MESSAGE Software being installed: GNU ARM C/C++ OpenOCD Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.openocd.feature.group 3.2.1.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:24.034
+!MESSAGE Missing requirement: GNU ARM C/C++ OpenOCD Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.openocd 3.2.1.201504061754) requires 'bundle org.eclipse.ui 3.105.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:45:24.034
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:24.034
+!MESSAGE From: GNU ARM C/C++ OpenOCD Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.openocd.feature.group 3.2.1.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:24.035
+!MESSAGE To: ilg.gnuarmeclipse.debug.gdbjtag.openocd [3.2.1.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:45:24.040
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:45:24.040
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:24.040
+!MESSAGE Software being installed: GNU ARM C/C++ OpenOCD Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.openocd.feature.group 3.2.1.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:24.040
+!MESSAGE Missing requirement: GNU ARM C/C++ OpenOCD Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.openocd 3.2.1.201504061754) requires 'bundle org.eclipse.ui 3.105.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:45:24.040
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:24.040
+!MESSAGE From: GNU ARM C/C++ OpenOCD Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.openocd.feature.group 3.2.1.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:24.040
+!MESSAGE To: ilg.gnuarmeclipse.debug.gdbjtag.openocd [3.2.1.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:45:33.273
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:45:33.273
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:33.273
+!MESSAGE Software being installed: GNU ARM C/C++ CodeRed Debug Perspective 1.1.1.201504061754 (ilg.gnuarmeclipse.codered.feature.group 1.1.1.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:33.273
+!MESSAGE Missing requirement: GNU ARM C/C++ Core 2.8.1.201504061754 (ilg.gnuarmeclipse.core 2.8.1.201504061754) requires 'bundle org.eclipse.ui.workbench 3.105.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:45:33.273
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:33.273
+!MESSAGE From: GNU ARM C/C++ CodeRed Debug Perspective 1.1.1.201504061754 (ilg.gnuarmeclipse.codered.feature.group 1.1.1.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:33.273
+!MESSAGE To: ilg.gnuarmeclipse.core [2.8.1.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:45:33.274
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:45:33.274
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:33.274
+!MESSAGE Software being installed: GNU ARM C/C++ CodeRed Debug Perspective 1.1.1.201504061754 (ilg.gnuarmeclipse.codered.feature.group 1.1.1.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:33.274
+!MESSAGE Missing requirement: GNU ARM C/C++ Core 2.8.1.201504061754 (ilg.gnuarmeclipse.core 2.8.1.201504061754) requires 'bundle org.eclipse.ui.workbench 3.105.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:45:33.274
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:33.274
+!MESSAGE From: GNU ARM C/C++ CodeRed Debug Perspective 1.1.1.201504061754 (ilg.gnuarmeclipse.codered.feature.group 1.1.1.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:33.274
+!MESSAGE To: ilg.gnuarmeclipse.core [2.8.1.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:45:44.460
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:45:44.460
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:44.460
+!MESSAGE Software being installed: GNU ARM C/C++ Packs (Experimental) 2.2.2.201504061754 (ilg.gnuarmeclipse.packs.feature.group 2.2.2.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:44.460
+!MESSAGE Missing requirement: GNU ARM C/C++ Packs Core 1.1.2.201504061754 (ilg.gnuarmeclipse.packs.core 1.1.2.201504061754) requires 'bundle org.eclipse.jface 3.9.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:45:44.460
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:44.460
+!MESSAGE From: GNU ARM C/C++ Packs (Experimental) 2.2.2.201504061754 (ilg.gnuarmeclipse.packs.feature.group 2.2.2.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:44.460
+!MESSAGE To: ilg.gnuarmeclipse.packs.core [1.1.2.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:45:44.461
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:45:44.461
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:44.461
+!MESSAGE Software being installed: GNU ARM C/C++ Packs (Experimental) 2.2.2.201504061754 (ilg.gnuarmeclipse.packs.feature.group 2.2.2.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:44.461
+!MESSAGE Missing requirement: GNU ARM C/C++ Packs Core 1.1.2.201504061754 (ilg.gnuarmeclipse.packs.core 1.1.2.201504061754) requires 'bundle org.eclipse.jface 3.9.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:45:44.461
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:44.461
+!MESSAGE From: GNU ARM C/C++ Packs (Experimental) 2.2.2.201504061754 (ilg.gnuarmeclipse.packs.feature.group 2.2.2.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:44.461
+!MESSAGE To: ilg.gnuarmeclipse.packs.core [1.1.2.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:45:54.505
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:45:54.505
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:54.505
+!MESSAGE Software being installed: GNU ARM C/C++ Generic Cortex-M Project Template 1.2.5.201504061754 (ilg.gnuarmeclipse.templates.cortexm.feature.group 1.2.5.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:54.505
+!MESSAGE Missing requirement: GNU ARM C/C++ Core 2.8.1.201504061754 (ilg.gnuarmeclipse.core 2.8.1.201504061754) requires 'bundle org.eclipse.ui.workbench 3.105.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:45:54.505
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:54.505
+!MESSAGE From: GNU ARM C/C++ Generic Cortex-M Project Template 1.2.5.201504061754 (ilg.gnuarmeclipse.templates.cortexm 1.2.5.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:54.505
+!MESSAGE To: bundle ilg.gnuarmeclipse.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:45:54.505
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:54.505
+!MESSAGE From: GNU ARM C/C++ Generic Cortex-M Project Template 1.2.5.201504061754 (ilg.gnuarmeclipse.templates.cortexm.feature.group 1.2.5.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:54.505
+!MESSAGE To: ilg.gnuarmeclipse.templates.cortexm [1.2.5.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:45:54.506
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:45:54.506
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:54.506
+!MESSAGE Software being installed: GNU ARM C/C++ Generic Cortex-M Project Template 1.2.5.201504061754 (ilg.gnuarmeclipse.templates.cortexm.feature.group 1.2.5.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:54.506
+!MESSAGE Missing requirement: GNU ARM C/C++ Core 2.8.1.201504061754 (ilg.gnuarmeclipse.core 2.8.1.201504061754) requires 'bundle org.eclipse.ui.workbench 3.105.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:45:54.506
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:54.506
+!MESSAGE From: GNU ARM C/C++ Generic Cortex-M Project Template 1.2.5.201504061754 (ilg.gnuarmeclipse.templates.cortexm 1.2.5.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:54.506
+!MESSAGE To: bundle ilg.gnuarmeclipse.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:45:54.506
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:54.506
+!MESSAGE From: GNU ARM C/C++ Generic Cortex-M Project Template 1.2.5.201504061754 (ilg.gnuarmeclipse.templates.cortexm.feature.group 1.2.5.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:45:54.506
+!MESSAGE To: ilg.gnuarmeclipse.templates.cortexm [1.2.5.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:46:08.568
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:46:08.568
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:08.568
+!MESSAGE Software being installed: GNU ARM C/C++ J-Link Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.jlink.feature.group 3.2.1.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:08.568
+!MESSAGE Missing requirement: GNU ARM C/C++ J-Link Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.jlink 3.2.1.201504061754) requires 'bundle org.eclipse.ui 3.105.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:46:08.568
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:08.568
+!MESSAGE From: GNU ARM C/C++ J-Link Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.jlink.feature.group 3.2.1.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:08.568
+!MESSAGE To: ilg.gnuarmeclipse.debug.gdbjtag.jlink [3.2.1.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:46:08.569
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:46:08.569
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:08.569
+!MESSAGE Software being installed: GNU ARM C/C++ J-Link Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.jlink.feature.group 3.2.1.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:08.569
+!MESSAGE Missing requirement: GNU ARM C/C++ J-Link Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.jlink 3.2.1.201504061754) requires 'bundle org.eclipse.ui 3.105.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:46:08.569
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:08.569
+!MESSAGE From: GNU ARM C/C++ J-Link Debugging 3.2.1.201504061754 (ilg.gnuarmeclipse.debug.gdbjtag.jlink.feature.group 3.2.1.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:08.569
+!MESSAGE To: ilg.gnuarmeclipse.debug.gdbjtag.jlink [3.2.1.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:46:17.111
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:46:17.111
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:17.111
+!MESSAGE Software being installed: GNU ARM C/C++ Freescale Project Templates 2.2.5.201504061754 (ilg.gnuarmeclipse.templates.freescale.feature.group 2.2.5.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:17.111
+!MESSAGE Missing requirement: GNU ARM C/C++ Templates Core 2.4.1.201504061754 (ilg.gnuarmeclipse.templates.core 2.4.1.201504061754) requires 'bundle org.eclipse.ui 3.105.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:46:17.111
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:17.111
+!MESSAGE From: GNU ARM C/C++ Freescale Project Templates 2.2.5.201504061754 (ilg.gnuarmeclipse.templates.freescale.feature.group 2.2.5.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:17.111
+!MESSAGE To: ilg.gnuarmeclipse.templates.core [2.4.1.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:46:17.112
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:46:17.112
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:17.112
+!MESSAGE Software being installed: GNU ARM C/C++ Freescale Project Templates 2.2.5.201504061754 (ilg.gnuarmeclipse.templates.freescale.feature.group 2.2.5.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:17.112
+!MESSAGE Missing requirement: GNU ARM C/C++ Templates Core 2.4.1.201504061754 (ilg.gnuarmeclipse.templates.core 2.4.1.201504061754) requires 'bundle org.eclipse.ui 3.105.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:46:17.112
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:17.112
+!MESSAGE From: GNU ARM C/C++ Freescale Project Templates 2.2.5.201504061754 (ilg.gnuarmeclipse.templates.freescale.feature.group 2.2.5.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:17.112
+!MESSAGE To: ilg.gnuarmeclipse.templates.core [2.4.1.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:46:23.423
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:46:23.423
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:23.423
+!MESSAGE Software being installed: GNU ARM C/C++ Cross Compiler 1.13.1.201504061754 (ilg.gnuarmeclipse.managedbuild.cross.feature.group 1.13.1.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:23.423
+!MESSAGE Missing requirement: GNU ARM C/C++ Packs Core 1.1.2.201504061754 (ilg.gnuarmeclipse.packs.core 1.1.2.201504061754) requires 'bundle org.eclipse.jface 3.9.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:46:23.423
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:23.424
+!MESSAGE From: GNU ARM C/C++ Cross Compiler 1.13.1.201504061754 (ilg.gnuarmeclipse.managedbuild.cross.feature.group 1.13.1.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:23.424
+!MESSAGE To: ilg.gnuarmeclipse.packs.core [1.1.2.201504061754]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-17 12:46:23.424
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:46:23.424
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:23.424
+!MESSAGE Software being installed: GNU ARM C/C++ Cross Compiler 1.13.1.201504061754 (ilg.gnuarmeclipse.managedbuild.cross.feature.group 1.13.1.201504061754)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:23.424
+!MESSAGE Missing requirement: GNU ARM C/C++ Packs Core 1.1.2.201504061754 (ilg.gnuarmeclipse.packs.core 1.1.2.201504061754) requires 'bundle org.eclipse.jface 3.9.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-17 12:46:23.424
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:23.424
+!MESSAGE From: GNU ARM C/C++ Cross Compiler 1.13.1.201504061754 (ilg.gnuarmeclipse.managedbuild.cross.feature.group 1.13.1.201504061754)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-17 12:46:23.424
+!MESSAGE To: ilg.gnuarmeclipse.packs.core [1.1.2.201504061754]

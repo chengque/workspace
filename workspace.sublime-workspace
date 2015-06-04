@@ -1,0 +1,528 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"top",
+				"topic_handle"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/Firmware/src/modules/mc_att_control/mc_att_control_main.cpp",
+			"settings":
+			{
+				"buffer_size": 29557,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Firmware/src/examples/wei/wei.cpp",
+			"settings":
+			{
+				"buffer_size": 3378,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Firmware/src/examples/wei/control_refs.h",
+			"settings":
+			{
+				"buffer_size": 717,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Firmware/src/modules/mc_att_control/module.mk",
+			"settings":
+			{
+				"buffer_size": 1980,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Firmware/src/examples/wei/module.mk",
+			"settings":
+			{
+				"buffer_size": 37,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Firmware/src/examples/wei/control_refs.cpp",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Firmware/src/platforms/px4_tasks.h",
+			"settings":
+			{
+				"buffer_size": 3623,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 222.0,
+		"last_filter": ":W",
+		"selected_items":
+		[
+			[
+				":W",
+				":w - Save"
+			],
+			[
+				"/b",
+				"Snippet: #!/usr/bin/env"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/chengque/workspace",
+		"/home/chengque/workspace/src",
+		"/home/chengque/workspace/src/Firmware",
+		"/home/chengque/workspace/src/Firmware/src",
+		"/home/chengque/workspace/src/Firmware/src/examples",
+		"/home/chengque/workspace/src/Firmware/src/examples/px4_mavlink_debug",
+		"/home/chengque/workspace/src/Firmware/src/examples/subscriber",
+		"/home/chengque/workspace/src/Firmware/src/examples/wei",
+		"/home/chengque/workspace/src/Firmware/src/lib",
+		"/home/chengque/workspace/src/Firmware/src/modules",
+		"/home/chengque/workspace/src/Firmware/src/modules/attitude_estimator_ekf",
+		"/home/chengque/workspace/src/Firmware/src/modules/mc_att_control"
+	],
+	"file_history":
+	[
+		"/home/chengque/workspace/src/Firmware/src/examples/wei/module.mk",
+		"/home/chengque/workspace/src/Firmware/src/modules/mavlink/mavlink_orb_subscription.cpp",
+		"/home/chengque/workspace/src/Firmware/src/modules/mavlink/mavlink_messages.cpp",
+		"/home/chengque/workspace/src/Firmware/src/modules/mavlink/mavlink_main.cpp",
+		"/home/chengque/workspace/src/Firmware/src/modules/mavlink/mavlink_bridge_header.h",
+		"/home/chengque/workspace/src/mavlink-gbp-release/message_definitions/v1.0/pixhawk.xml",
+		"/home/chengque/workspace/src/mavlink-gbp-release/message_definitions/v1.0/common.xml",
+		"/home/chengque/workspace/src/Firmware/mavlink/include/mavlink/v1.0/pixhawk/pixhawk.h",
+		"/home/chengque/workspace/src/Firmware/mavlink/include/mavlink/v1.0/control_refs/mavlink_msg_control_refs.h",
+		"/home/chengque/workspace/src/Firmware/src/examples/wei/wei.c",
+		"/home/chengque/workspace/src/mavlink-gbp-release/debian/changelog",
+		"/home/chengque/workspace/src/mavlink-gbp-release/message_definitions/v1.0/control_refs.xml",
+		"/home/chengque/workspace/src/Firmware/src/modules/mavlink/mavlink_main_posix.cpp",
+		"/home/chengque/workspace/src/mavlink-gbp-release/debian/rules",
+		"/home/chengque/workspace/src/Firmware/ROMFS/px4fmu_common/init.d/rcS",
+		"/home/chengque/workspace/src/Firmware/src/examples/subscriber/subscriber_main.cpp",
+		"/home/chengque/workspace/src/Firmware/src/drivers/px4io/px4io.cpp",
+		"/home/chengque/workspace/src/Firmware/src/modules/sdlog2/sdlog2.c",
+		"/home/chengque/workspace/src/Firmware/Firmware.sublime-project",
+		"/home/chengque/workspace/src/Firmware/src/modules/sensors/sensors.cpp",
+		"/home/chengque/workspace/src/Firmware/makefiles/nuttx/config_px4fmu-v2_default.mk",
+		"/mnt/project/documents/uav/workspace/px4/src/Firmware/src/modules/wei/wei.c",
+		"/mnt/project/documents/uav/workspace/px4/src/Firmware/makefiles/config_px4fmu-v2_default.mk",
+		"/mnt/project/documents/uav/workspace/px4/Combine/Firmware/src/lib/uavcan/libuavcan/src/driver/uc_can.cpp.d",
+		"/mnt/project/documents/uav/workspace/px4/Firmware/src/drivers/px4flow/px4flow.cpp",
+		"/mnt/project/documents/uav/workspace/px4/Firmware/src/modules/commander/commander.cpp",
+		"/mnt/project/documents/uav/workspace/px4/Firmware/src/modules/mc_att_control/mc_att_control_main.cpp",
+		"/mnt/project/documents/uav/workspace/px4/Firmware/src/examples/px4_simple_app/px4_simple_app.c",
+		"/home/chengque/Desktop/test.py",
+		"/home/chengque/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/chengque/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/chengque/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/chengque/workspace/src/Firmware",
+			"/home/chengque/workspace/src/Firmware/src/modules/mavlink",
+			"/home/chengque/workspace/src/Firmware/mavlink/include/mavlink/v1.0",
+			"/home/chengque/workspace/src/Firmware",
+			"",
+			"/mnt/project/documents/uav/workspace/px4/src/Firmware/makefiles",
+			"/mnt/project/documents/uav/workspace/px4/Combine/Firmware",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"start",
+			"g_control",
+			"mc_att_control",
+			"_task_should_exit",
+			"_manual_control_sp",
+			"_manual_control_sp_sub",
+			"_v_att_sp",
+			"_v_att_sp_sub",
+			"controlrefs",
+			"mavlink.h",
+			"mavlink_type.h",
+			"mavlink_type",
+			"mavlink_",
+			"150",
+			"tty",
+			"heart",
+			"HEARTBEAT",
+			"heartbeat",
+			"streams_list",
+			"_v_att_sp_sub",
+			"MavlinkStreamHeartbeat",
+			"mavlink",
+			"150",
+			"setpoint",
+			"manual",
+			"debug_key_value",
+			"mavlink_log_info",
+			"_mavlink_fd",
+			"MODULES",
+			"chnengque",
+			"/home/chnengque/gcc-arm-none-eabi-4_8-2014q3/",
+			"sp_man_sub",
+			"sp_man",
+			"manual_control_setpoint_s",
+			"vehicle_control_mode",
+			"vehicle_global_position",
+			"vehicle_global_position_pub",
+			"+b"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/Firmware/src/modules/mc_att_control/mc_att_control_main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4399,
+								4399
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1251.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/Firmware/src/examples/wei/wei.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1776,
+								1776
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 864.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/Firmware/src/examples/wei/control_refs.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 717,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								717,
+								717
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/Firmware/src/modules/mc_att_control/module.mk",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1980,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 206.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/Firmware/src/examples/wei/module.mk",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								27
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/Firmware/src/examples/wei/control_refs.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/Firmware/src/platforms/px4_tasks.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3623,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1926,
+								1926
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 344.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/Python27.sublime-build",
+	"project": "workspace.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/catkin_ws/catkin_ws.sublime-project"
+			]
+		],
+		"width": 784.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 455.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

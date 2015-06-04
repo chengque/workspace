@@ -1,0 +1,3 @@
+ims=gimp.image_list()
+im=ims[0];
+layer=im.layers[0]

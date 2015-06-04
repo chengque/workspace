@@ -1,0 +1,5 @@
+sudo apt-get install libc6-dev-i386 libhdf5-serial-dev libgtest-dev libgsl0-dev python-dev cmake imagemagick libmagickwand-dev4 libmagick++-dev libxext6 libxext-dev libx11-dev libjpeg8 libjpeg8-dev libjpeg8-dbg libjpeg-prog gfortran minpack-dev liblapack-dev libatlas-dev libatlas-base-dev libboost-dev
+
+sudo apt-get install libhdf5-serial-dev libgtest-dev libgsl0-dev python-dev cmake imagemagick libmagick++-dev libxext6 libxext-dev libx11-dev libjpeg8 libjpeg8-dev libjpeg8-dbg gfortran minpack-dev liblapack-dev libatlas-dev libatlas-base-dev libboost-dev libblas-dev zlib1g-dev libjpeg62 python-visual python-opengl
+
+sudo cp ../bin/libANN_char.so /usr/lib
