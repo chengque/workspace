@@ -1,0 +1,10 @@
+Package: ros-jade-mavlink
+Version: 2015.5.28-0vivid
+Architecture: i386
+Maintainer: Vladimir Ermakov <vooon341@gmail.com>
+Installed-Size: 22861
+Depends: python-dev, ros-jade-catkin
+Section: misc
+Priority: extra
+Homepage: http://qgroundcontrol.org/mavlink/
+Description: MAVLink message marshaling library. This package provides C-headers and pymavlink library.

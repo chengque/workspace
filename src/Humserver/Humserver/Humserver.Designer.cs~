@@ -1,0 +1,166 @@
+﻿
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using HumTrans;
+namespace Humserver
+{
+    partial class Humserver
+    {
+        /// <summary>
+        /// 必需的设计器变量。
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// 清理所有正在使用的资源。
+        /// </summary>
+        /// <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows 窗体设计器生成的代码
+
+        /// <summary>
+        /// 设计器支持所需的方法 - 不要
+        /// 使用代码编辑器修改此方法的内容。
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            this.chartAt = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.label1 = new System.Windows.Forms.Label();
+            this.curValue = new System.Windows.Forms.Label();
+            this.btnQuery = new System.Windows.Forms.Button();
+            this.meterBattery = new Meters.Meter();
+            this.meterPitch = new Meters.Meter();
+            this.meterHeight = new Meters.Meter();
+            ((System.ComponentModel.ISupportInitialize)(this.chartAt)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // chartAt
+            // 
+            chartArea1.Name = "ChartArea1";
+            this.chartAt.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chartAt.Legends.Add(legend1);
+            this.chartAt.Location = new System.Drawing.Point(-1, -2);
+            this.chartAt.Name = "chartAt";
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartAt.Series.Add(series1);
+            this.chartAt.Size = new System.Drawing.Size(809, 397);
+            this.chartAt.TabIndex = 0;
+            this.chartAt.Text = "chartAt";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 407);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 12);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "当前:";
+            // 
+            // curValue
+            // 
+            this.curValue.AutoSize = true;
+            this.curValue.Location = new System.Drawing.Point(53, 407);
+            this.curValue.Name = "curValue";
+            this.curValue.Size = new System.Drawing.Size(11, 12);
+            this.curValue.TabIndex = 2;
+            this.curValue.Text = "0";
+            // 
+            // btnQuery
+            // 
+            this.btnQuery.Location = new System.Drawing.Point(23, 450);
+            this.btnQuery.Name = "btnQuery";
+            this.btnQuery.Size = new System.Drawing.Size(75, 23);
+            this.btnQuery.TabIndex = 3;
+            this.btnQuery.Text = "查询";
+            this.btnQuery.UseVisualStyleBackColor = true;
+            this.btnQuery.Click += new System.EventHandler(this.btnQuery_Click);
+            // 
+            // meterPitch
+            // 
+            this.meterPitch.FaceColor = System.Drawing.Color.DarkSlateBlue;
+            this.meterPitch.Location = new System.Drawing.Point(600, 413);
+            this.meterPitch.MeterArc = 240;
+            this.meterPitch.MeterMargin = 3;
+            this.meterPitch.MeterSize = 200;
+            this.meterPitch.Name = "meterPitch";
+            this.meterPitch.Size = new System.Drawing.Size(200, 200);
+            this.meterPitch.StartValue=-90;
+            this.meterPitch.EndValue=90;
+            // 
+            // meterHeight
+            // 
+            this.meterHeight.FaceColor = System.Drawing.Color.DarkSlateBlue;
+            this.meterHeight.Location = new System.Drawing.Point(200, 413);
+            this.meterHeight.MeterArc = 240;
+            this.meterHeight.MeterMargin = 3;
+            this.meterHeight.MeterSize = 200;
+            this.meterHeight.Name = "meterHeight";
+            this.meterHeight.Size = new System.Drawing.Size(200, 200);
+            this.meterHeight.StartValue=0;
+            this.meterHeight.EndValue=100;
+
+            // 
+            // meterBattery
+            // 
+            this.meterBattery.FaceColor = System.Drawing.Color.DarkSlateBlue;
+            this.meterBattery.Location = new System.Drawing.Point(423, 413);
+            this.meterBattery.MeterArc = 240;
+            this.meterBattery.MeterMargin = 3;
+            this.meterBattery.MeterSize = 200;
+            this.meterBattery.Name = "meterBattery";
+            this.meterBattery.Size = new System.Drawing.Size(200, 200);
+            this.meterBattery.TabIndex = 4;
+            // 
+            // Humserver
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(973, 686);
+            this.Controls.Add(this.meterBattery);
+            this.Controls.Add(this.meterHeight);
+            this.Controls.Add(this.meterPitch);
+            this.Controls.Add(this.btnQuery);
+            this.Controls.Add(this.curValue);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.chartAt);
+            this.Name = "Humserver";
+            this.Text = "Humserver";
+            ((System.ComponentModel.ISupportInitialize)(this.chartAt)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartAt;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label curValue;
+        private System.Windows.Forms.Button btnQuery;
+        private Meters.Meter meterBattery;
+        private Meters.Meter meterPitch;
+        private Meters.Meter meterHeight;
+    }
+}
+

@@ -1,0 +1,136 @@
+Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = 2015年05月14日 星期四 18时41分32秒
+
+BeginCmp
+TimeStamp = /5554070F;
+Reference = C1;
+ValeurCmp = F1;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /55540775;
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55540861;
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /555407CA;
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5554632D;
+Reference = C5;
+ValeurCmp = 1u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /555461D6;
+Reference = C6;
+ValeurCmp = 0.01u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5554631E;
+Reference = C7;
+ValeurCmp = 4.7u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /555402AD;
+Reference = CON1;
+ValeurCmp = USB-MINI-B;
+IdModule  = USB_MINI_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /555409A1;
+Reference = D1;
+ValeurCmp = LED RX;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /555409B0;
+Reference = D2;
+ValeurCmp = LED TX;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55540AFC;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /555408BD;
+Reference = R1;
+ValeurCmp = 1K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /555408F7;
+Reference = R2;
+ValeurCmp = 1K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5554093C;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5554094B;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55540AED;
+Reference = R5;
+ValeurCmp = 1K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5554020D;
+Reference = U1;
+ValeurCmp = FT232RL;
+IdModule  = SSOP28;
+EndCmp
+
+BeginCmp
+TimeStamp = /55545DB0;
+Reference = U2;
+ValeurCmp = XBEE;
+IdModule  = xbee;
+EndCmp
+
+BeginCmp
+TimeStamp = /55545DC9;
+Reference = U3;
+ValeurCmp = LP2992;
+IdModule  = SOT23-5;
+EndCmp
+
+EndListe

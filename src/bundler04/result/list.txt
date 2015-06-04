@@ -1,0 +1,9 @@
+tmp/et000.jpg 0 660.80306
+tmp/et001.jpg 0 660.80306
+tmp/et002.jpg 0 660.80306
+tmp/et003.jpg 0 660.80306
+tmp/et004.jpg 0 660.80306
+tmp/et005.jpg 0 660.80306
+tmp/et006.jpg 0 660.80306
+tmp/et007.jpg 0 660.80306
+tmp/et008.jpg 0 660.80306

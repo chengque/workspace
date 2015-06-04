@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+exec_prefix=/opt/ros/jade
+includedir=${prefix}/include
+
+Name: mavlink
+Description: mavlink message marshalling library
+Version: 1.0.9
+Cflags: -I${includedir}

@@ -1,0 +1,12 @@
+Added Component: Designator=P11~20(header10 2mm)
+Added Component: Designator=Serial(HDR1X4)
+Added Pin To Net: NetName=NetP1~10_1 Pin=Serial-1
+Added Net: Name=NetP1~10_1
+Added Pin To Net: NetName=NetP1~10_2 Pin=Serial-2
+Added Net: Name=NetP1~10_2
+Added Pin To Net: NetName=NetP1~10_3 Pin=Serial-3
+Added Net: Name=NetP1~10_3
+Added Pin To Net: NetName=NetP1~10_10 Pin=Serial-4
+Added Net: Name=NetP1~10_10
+Added Class: Name=new
+Added Room: Name=new

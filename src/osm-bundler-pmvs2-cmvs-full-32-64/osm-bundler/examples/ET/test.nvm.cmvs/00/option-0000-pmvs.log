@@ -1,0 +1,86 @@
+
+pmvs2
+D:\documents\uav\workspace\osm-bundler-pmvs2-cmvs-full-32-64\osm-bundler\examples\ET\test.nvm.cmvs\00\
+option-0000
+--------------------------------------------------
+--- Summary of specified options ---
+# of timages: 7 (enumeration)
+# of oimages: 0 (enumeration)
+level: 1  csize: 2
+threshold: 0.7  wsize: 7
+minImageNum: 3  CPU: 4
+useVisData: 1  sequence: -1
+--------------------------------------------------
+Reading images: *******
+1 2 Harris running ...Harris running ...3 Harris running ...4 Harris running ...217 harris done
+DoG running...197 harris done
+DoG running...182 harris done
+DoG running...183 harris done
+DoG running...312 dog done
+5 Harris running ...316 dog done
+6 Harris running ...316 dog done
+8 Harris running ...316 dog done
+208 harris done
+DoG running...228 harris done
+DoG running...210 harris done
+DoG running...318 dog done
+315 dog done
+311 dog done
+done
+adding seeds 
+(2,46)(1,68)(0,3)(3,4)(5,2)(4,39)(6,43)done
+---- Initial: 0 secs ----
+Total pass fail0 fail1 refinepatch: 4387 264 3905 218 482
+Total pass fail0 fail1 refinepatch: 100 6.01778 89.013 4.96923 10.987
+Expanding patches...
+---- EXPANSION: 14 secs ----
+Total pass fail0 fail1 refinepatch: 14754 11553 2229 972 12525
+Total pass fail0 fail1 refinepatch: 100 78.3042 15.1078 6.58804 84.8922
+FilterOutside
+mainbody: 
+Gain (ave/var): 0.842533 0.322427
+11755 -> 11705 (99.5746%)	0 secs
+Filter Exact: *******
+11705 -> 10993 (93.9171%)	0 secs
+FilterNeighbor:	10993 -> 9868 (89.7662%)	0 secs
+FilterGroups:	20
+9868 -> 9596 (97.2436%)	0 secs
+STATUS: 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+Expanding patches...
+---- EXPANSION: 4 secs ----
+Total pass fail0 fail1 refinepatch: 5423 2429 1351 1643 4072
+Total pass fail0 fail1 refinepatch: 100 44.7907 24.9124 30.2969 75.0876
+FilterOutside
+mainbody: 
+Gain (ave/var): 1.00727 0.36448
+12025 -> 12012 (99.8919%)	0 secs
+Filter Exact: *******
+12012 -> 11365 (94.6137%)	0 secs
+FilterNeighbor:	11365 -> 10992 (96.718%)	0 secs
+FilterGroups:	20
+10992 -> 10768 (97.9622%)	0 secs
+STATUS: 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+Expanding patches...
+---- EXPANSION: 3 secs ----
+Total pass fail0 fail1 refinepatch: 3542 1542 952 1048 2590
+Total pass fail0 fail1 refinepatch: 100 43.5347 26.8775 29.5878 73.1225
+FilterOutside
+mainbody: 
+Gain (ave/var): 1.17164 0.410937
+12310 -> 12303 (99.9431%)	0 secs
+Filter Exact: *******
+12303 -> 11614 (94.3997%)	0 secs
+FilterNeighbor:	11614 -> 11387 (98.0455%)	0 secs
+FilterGroups:	20
+11387 -> 11188 (98.2524%)	0 secs
+STATUS: 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+---- Total: 0 secs ----

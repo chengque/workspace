@@ -1,0 +1,221 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Chengque.Convertor;
+using Chengque.SerialSup;
+using System.IO.Ports;
+using System.Runtime.InteropServices;
+using System.Text.RegularExpressions;
+using System.Diagnostics;
+
+namespace HumTrans
+{
+    public class Transmit
+    {
+        public delegate void RecMsgEventHandler(RecMsgArgs args);
+
+        public event RecMsgEventHandler OnRecMsg;
+
+        private Serial xbee;
+        private static Transmit _instance = new Transmit();
+
+        private string lastPack;
+        private string newPack;
+
+        public static Transmit Instance
+        {
+            get
+            {
+                return _instance;
+            }
+        }
+
+        private Transmit()
+        {
+            xbee = new Serial();
+            xbee.OpenPort("COM10", 57600);
+            //xbee.GetSerialPort().Handshake = Handshake.RequestToSend;
+
+            xbee.SetParity(Parity.None);
+            xbee.SetStopBit(StopBits.One);
+            xbee.OnRecMsg+=new Serial.SerialRecMsgEventHandler(xbee_OnRecMsg);
+            lastPack = "";
+            newPack = "";
+        }
+
+        void  xbee_OnRecMsg(object sender, SerialRecMsgEventArgs args)
+        {
+            try
+            {
+                string pack = lastPack + args.Message;
+                lastPack = "";
+
+                Match m = Regex.Match(pack, "(>\\*>)(.*?)(<#<)(.*)");
+
+                lastPack = m.Groups[4].Value;
+
+                pack = m.Groups[2].Value;
+
+                if (pack == "")
+                {
+                    lastPack=pack;
+                    return;
+                }
+                Debug.WriteLine("接收到数据:"+pack);
+                byte p = (byte)pack[2];
+
+                UInt16 l = (UInt16)(((UInt16)pack[1]) * 256 + (UInt16)pack[0]);
+
+                string sd = pack.Substring(3, l);
+                byte[] data = System.Text.Encoding.Unicode.GetBytes(sd);
+
+                RecMsgArgs targs = new RecMsgArgs();
+                switch (p)
+                {
+                    case (byte)PackDes.LL_Status:
+                        targs.RawData = args.Message;
+                        targs.DataType = typeof(LL_Status);
+                        targs.Data = StructBytesConvertor.BytesToStruts(data, typeof(LL_Status));
+                        SetRecEvent(targs);
+                        break;
+                    case (byte)PackDes.IMU_CalcData:
+                        targs.RawData = args.Message;
+                        targs.DataType = typeof(IMU_CalcData);
+                        targs.Data = StructBytesConvertor.BytesToStruts(data, typeof(IMU_CalcData));
+                        SetRecEvent(targs);
+                        break;
+
+                }
+            }
+            catch(Exception e)
+            {
+                Debug.WriteLine(e.Message);
+            }
+
+        }
+
+        public void SetRecEvent(RecMsgArgs msg)
+        {
+            try
+            {
+                OnRecMsg(msg);
+            }
+            catch
+            {
+            }
+        }
+
+        public void SendMessage(string msg)
+        {
+            xbee.SendMessage(msg);
+        }
+
+        public void QueryLLStatus()
+        {
+            string msg = ">*>p" + (char)0x01 + (char)0x00;
+            SendMessage(msg);
+            
+        }
+
+        public void QueryIMUCalcData()
+        {
+            string msg = ">*>p" + (char)0x04 + (char)0x00;
+            SendMessage(msg);
+            
+        }
+    }
+
+    public class RecMsgArgs:EventArgs
+    {
+        public string RawData
+        {get;set;}
+        public Type DataType
+        {get;set;}
+        public object Data
+        {get;set;}
+    }
+
+    public enum PollType
+    {
+        LL_Status=0x0001,
+        IMU_RawData=0x0002,
+        IMU_CalcData=0x0004,
+        RC_Data=0x0008
+    }
+
+    public enum PackDes
+    {
+        LL_Status=0x02,
+        IMU_CalcData=0x03
+    }
+
+    [StructLayoutAttribute(LayoutKind.Sequential,CharSet=CharSet.Unicode,Pack=1)]
+    public struct LL_Status
+    {
+        //电池电量
+        public Int16 battery_voltage_1;
+        public Int16 battery_voltage_2;
+
+        public Int16 status;
+
+        public Int16 cpu_load;
+
+        public byte compass_enabled;
+        public byte chksum_error;
+        public byte flying;
+        public byte motors_on;
+
+        public Int16 flightMode;
+
+        //马达启动时间
+        public Int16 up_time;
+
+    }
+    [StructLayoutAttribute(LayoutKind.Sequential,CharSet=CharSet.Unicode,Pack=1)]
+    public struct IMU_CalcData
+    {
+        //角度,24位
+        public Int32 angle_nick;
+        public Int32 angle_roll;
+        public Int32 angle_yaw;
+
+
+        public Int32 angvel_nick;
+        public Int32 angvel_roll;
+        public Int32 angvel_yaw;
+
+
+        public Int16 acc_x_calib;
+        public Int16 acc_y_calib;
+        public Int16 acc_z_calib;
+
+
+        public Int16 acc_x;
+        public Int16 acc_y;
+        public Int16 acc_z;
+
+        public Int32 acc_angle_nick;
+        public Int32 acc_angle_roll;
+        public Int32 acc_absolute_value;
+
+        public Int32 Hx;
+        public Int32 Hy;
+        public Int32 Hz;
+
+        public Int32 Mag_heading;
+
+        public Int32 speed_x;
+        public Int32 speed_y;
+        public Int32 speed_z;
+
+        public Int32 height;
+
+        public Int32 dheight;
+        public Int32 dheight_reference;
+
+        public Int32 height_reference;
+
+
+    }
+}

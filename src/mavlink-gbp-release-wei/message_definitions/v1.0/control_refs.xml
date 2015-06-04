@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<mavlink>
+        <include>common.xml</include>
+        <!-- NOTE: If the included file already contains a version tag, remove the version tag here, else uncomment to enable. -->
+	<!--<version>3</version>-->
+	<enums>
+	</enums>
+	<messages>
+		<message id="150" name="CONTROL_REFS">
+			<description>This message encodes all of the control references from the USV.</description>
+			<field type="float" name="theta">Theta.</field>
+			<field type="float" name="phi">Phi</field>
+			<field type="float" name="psi">Psi</field>
+			<field type="float" name="thrust">Thrust</field>
+		</message>
+	</messages>
+</mavlink>

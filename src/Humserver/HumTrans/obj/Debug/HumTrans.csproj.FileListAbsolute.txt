@@ -1,0 +1,15 @@
+D:\quadrotor\software\desktop\Humserver\HumTrans\bin\Debug\HumTrans.dll
+D:\quadrotor\software\desktop\Humserver\HumTrans\bin\Debug\HumTrans.pdb
+D:\quadrotor\software\desktop\Humserver\HumTrans\bin\Debug\StructBytesConvertor.dll
+D:\quadrotor\software\desktop\Humserver\HumTrans\obj\Debug\ResolveAssemblyReference.cache
+D:\quadrotor\software\desktop\Humserver\HumTrans\obj\Debug\HumTrans.dll
+D:\quadrotor\software\desktop\Humserver\HumTrans\obj\Debug\HumTrans.pdb
+D:\quadrotor\software\desktop\Humserver\HumTrans\bin\Debug\Chengque.SerialSup.dll
+D:\quadrotor\software\desktop\Humserver\HumTrans\bin\Debug\Chengque.SerialSup.pdb
+F:\quadrotor\software\desktop\Humserver\HumTrans\bin\Debug\HumTrans.dll
+F:\quadrotor\software\desktop\Humserver\HumTrans\bin\Debug\HumTrans.pdb
+F:\quadrotor\software\desktop\Humserver\HumTrans\bin\Debug\SerialSup.dll
+F:\quadrotor\software\desktop\Humserver\HumTrans\bin\Debug\SerialSup.pdb
+F:\quadrotor\software\desktop\Humserver\HumTrans\obj\Debug\ResolveAssemblyReference.cache
+F:\quadrotor\software\desktop\Humserver\HumTrans\obj\Debug\HumTrans.dll
+F:\quadrotor\software\desktop\Humserver\HumTrans\obj\Debug\HumTrans.pdb

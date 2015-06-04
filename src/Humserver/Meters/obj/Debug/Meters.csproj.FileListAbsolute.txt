@@ -1,0 +1,17 @@
+D:\quadrotor\software\desktop\Humserver\Meters\bin\Debug\Meters.dll
+D:\quadrotor\software\desktop\Humserver\Meters\bin\Debug\Meters.pdb
+D:\quadrotor\software\desktop\Humserver\Meters\obj\Debug\ResolveAssemblyReference.cache
+D:\quadrotor\software\desktop\Humserver\Meters\obj\Debug\Meters.Meter.resources
+D:\quadrotor\software\desktop\Humserver\Meters\obj\Debug\GenerateResource.read.1.tlog
+D:\quadrotor\software\desktop\Humserver\Meters\obj\Debug\GenerateResource.write.1.tlog
+D:\quadrotor\software\desktop\Humserver\Meters\obj\Debug\Meters.dll
+D:\quadrotor\software\desktop\Humserver\Meters\obj\Debug\Meters.pdb
+F:\quadrotor\software\desktop\Humserver\Meters\bin\Debug\Meters.dll
+F:\quadrotor\software\desktop\Humserver\Meters\bin\Debug\Meters.pdb
+F:\quadrotor\software\desktop\Humserver\Meters\obj\Debug\ResolveAssemblyReference.cache
+F:\quadrotor\software\desktop\Humserver\Meters\obj\Debug\Meters.Meter.resources
+F:\quadrotor\software\desktop\Humserver\Meters\obj\Debug\Meters.Properties.Resources.resources
+F:\quadrotor\software\desktop\Humserver\Meters\obj\Debug\GenerateResource.read.1.tlog
+F:\quadrotor\software\desktop\Humserver\Meters\obj\Debug\GenerateResource.write.1.tlog
+F:\quadrotor\software\desktop\Humserver\Meters\obj\Debug\Meters.dll
+F:\quadrotor\software\desktop\Humserver\Meters\obj\Debug\Meters.pdb
