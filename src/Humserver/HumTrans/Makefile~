@@ -1,0 +1,10 @@
+libName=HumTransmit
+outPath=bin\Debug\$(libName).dll
+CSlib=D:\CSLib\bin
+all:$(libName).dll
+
+$(libName).dll:$(libName).cs
+	csc /t:library /out:$(outPath) /r:$(CSlib)\io\serial.dll,$(CSlib)\convert\StructBytesConvertor.dll $(libName).cs
+
+clean:
+	del $(outPath)

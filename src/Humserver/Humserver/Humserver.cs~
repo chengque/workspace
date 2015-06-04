@@ -1,0 +1,64 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using HumTrans;
+namespace Humserver
+{
+    public partial class Humserver : Form
+    {
+        public delegate void OnRecMsgHandler(RecMsgArgs args);
+
+        public Humserver()
+        {
+            InitializeComponent();
+            Transmit.Instance.OnRecMsg += new Transmit.RecMsgEventHandler(Instance_OnRecMsg);
+        }
+
+        void Instance_OnRecMsg(RecMsgArgs args)
+        {
+            OnRecMsgHandler orm = new OnRecMsgHandler(OnRecMsg);
+            this.Invoke(orm, args);
+
+        }
+
+        void OnRecMsg(RecMsgArgs args)
+        {
+            try
+            {
+                if(args.DataType==typeof(LL_Status))
+                {
+                    LL_Status stat = (LL_Status)args.Data;
+                    curValue.Text = (stat.battery_voltage_1+ stat.battery_voltage_2*256).ToString();
+                    double batVol=(stat.battery_voltage_1+ stat.battery_voltage_2*256)/1000.0;
+                    meterBattery.CurrentValue=batVol;
+                }
+
+               if(args.DataType==typeof(IMU_CalcData))
+               {
+                    IMU_CalcData icd=(IMU_CalcData)args.Data;
+                    meterHeight.CurrentValue=icd.height;
+                    meterPitch.CurrentValue=icd.angle_nick/1000.0;
+               }
+
+               if(args.DataType==null)
+               {
+                    textInfo.AppendText(string.Format("{0:X}",args.RawData)+"\r\n");
+               }
+            }
+            catch
+            {
+            }
+        }
+
+        private void btnQuery_Click(object sender, EventArgs e)
+        {
+            Transmit.Instance.QueryLLStatus();
+            Transmit.Instance.QueryIMUCalcData();
+        }
+    }
+}

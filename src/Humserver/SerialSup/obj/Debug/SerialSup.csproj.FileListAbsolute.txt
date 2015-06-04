@@ -1,0 +1,5 @@
+F:\quadrotor\software\desktop\Humserver\SerialSup\bin\Debug\SerialSup.dll
+F:\quadrotor\software\desktop\Humserver\SerialSup\bin\Debug\SerialSup.pdb
+F:\quadrotor\software\desktop\Humserver\SerialSup\obj\Debug\ResolveAssemblyReference.cache
+F:\quadrotor\software\desktop\Humserver\SerialSup\obj\Debug\SerialSup.dll
+F:\quadrotor\software\desktop\Humserver\SerialSup\obj\Debug\SerialSup.pdb

@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=NetP1~10_1 Pin=Serial-1
+Removed Pin From Net: NetName=NetP1~10_2 Pin=Serial-2
+Removed Pin From Net: NetName=NetP1~10_3 Pin=Serial-3
+Removed Pin From Net: NetName=NetP1~10_10 Pin=Serial-4
+Added Pin To Net: NetName=NetP1~10_10 Pin=Serial-1
+Added Pin To Net: NetName=NetP1~10_3 Pin=Serial-2
+Added Pin To Net: NetName=NetP1~10_2 Pin=Serial-3
+Added Pin To Net: NetName=NetP1~10_1 Pin=Serial-4
+Added Room: Name=Sheetchanging
